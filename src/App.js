@@ -7,9 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to thiru reactjs --invalidation ==test
+          Welcome to thiru reactjs upload thiru.yml
           <p>
-            keep smile  --invalidation
+            keep smile  --invalidation pass
           </p>
           
         </p>
