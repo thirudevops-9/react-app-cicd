@@ -10,5 +10,5 @@ phases:
   post_build: 
     commands: 
       - aws s3 cp --recursive ./build s3://rutujakate-111/
-      - aws cloudfront create-invalidation --distribution-id E64FWF3JNI0FB --paths /*
+      - aws cloudfront create-invalidation --distribution-id E64FWF3JNI0FB --paths "/*"
   
