@@ -7,9 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to thiru reactjs fix the bugs go way  
+          Welcome to reactjs application
           <p>
-            keep smile  --invalidation  welcome to cdn changes
+            keep smile  improve much more code.
           </p>
           
         </p>
