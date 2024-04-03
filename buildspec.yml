@@ -9,6 +9,6 @@ phases:
       - npm run build 
   post_build: 
     commands: 
-      - aws s3 cp --recursive ./build s3://rutujakate-111/
-      - aws cloudfront create-invalidation --distribution-id E64FWF3JNI0FB --path "/*"
+      - aws s3 cp --recursive ./build s3://infogen-labs.in-prod/
+      - aws cloudfront create-invalidation --distribution-id E3BN01EMAFQP67 --path "/*"
   
